@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 150vh;
+  width: 100%;
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQgIDQ0HBwcHDQ8IDQcNFREWFhURExMYHSggGBoxGxMVITEhJSkrLi4uFx8zODMtNyg5LjcBCgoKDg0NFw0NEisZFRkrKy0tLS0rKzctLTc3LSstLS0tLSstLTctKysrLSsrKystKysrKysrLSsrKysrKysrK//AABEIAKIBNwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACAwABBAUHBv/EABsQAQEBAQEBAQEAAAAAAAAAAAABAgMSERNh/8QAHAEAAwEBAQEBAQAAAAAAAAAAAQIDBAAFCAcG/8QAIBEBAQEBAQADAQADAQAAAAAAAAECAxEEEmEhExUxFP/aAAwDAQACEQMRAD8A805cmvlyFy5NfPk/rvHvc+IOfNp58x8+bTjmZuxyLxg/GDMczs4FqzgvODc5MzgzORXzkEyOZHMimXKQEi/g5lfkTeg+KsM+Ksc77FUvR+oVqATWmfZG2ncI6QKz70ydGfo1dIzdIWsu6y9Gfo09IzdC1k3WboRutHQjYMe6Rq0u03RenMui7VfaKq+DGfQL9T4P4uQUdUvynmnTIpgfUNbZ/FX+bVMCnN3qV6Mk5J+NbpyHOTvslezn/iv8K6U4/wAFOH8D7Evdy/wR15wU77B/6f10ufNq5818+bRjBn6PjmrGD8YXjB+ci0ZwHODc5FnJmcirIHORzIpBSCKpFyCkWIeh+J8F8T47wt0FVGGj4W7LpWjtFbDxO9CNs+2nbPsLEdbZujN0aejNslZ96ZujN0aejN0JWXemboRto6M+ysu6TorRui65m0BXwSfBQ0qQUiSDkFm2vMMmVZhucuZt1M4NzzXjJ+MB6yb0DPM3PIzGD8cy+s2+hGeRmeLTjkdjkHrNrqyZ4fxHRxxWX1G9kxg/GEzk7OWqP26YTOTc5TMMkE3iZg5FSDgh6uLRDeFulrUg+JXS/qlKtHxO7WG1A0fErtVpWqO0rdd4lehe6z7p26z7JYldk9KzbP2z9CWJa2R0ZujRtn6J2Ia0zdCNn9CdlQ1SNF6N0XQQ0BPi0FDS5B5gYZlzNsWYfiF5Ow5k6GYjRjJWI084WsXSmYy0YwDnGrnktYeml88NPPmnLLVzwS1i6bDjkjZz5oX1kvX+sWcmZi5BSN8fRFi5BxUFBTq4uKi/pktUSK+p9FHWlp9D9T6aRHWl2q+htVaaRHW1/Q2qtDaPiOtpaVqitK1R8SuwbpG6ZukbpLE7srbP0O3WfpUrE7onbPs/ZGyWJ3RGyNH7I2nUrStF0zQNAlaFFo5HS4PIYPLmbZmYdgrJ+I5k6HYjTzhHONPOFrD0aOUa+UZuUbOUJXn9a08stnLLPxjbxideb10fywh/HKE9YNb/AK5EgokW9KPpjS4tSGjPqrWpDM2qv6ivqrTSIa0v6r6r6r6bxn1pdofqWhtPIhrS7QWpaG03iGtK1StUeqVqh4ldA3SN0zdJ3S2Euit0jdN2TtKwl0TsjZ2ydpUtpOydG6K0nSWlUFMoKBLQotPjktLg8hg8uZ9mZPwTk7AMnQ/m1c2bm08y1h6NXJs5MnJs5ErzurZxjfwjFxjfwideX2buOUHwiJV5ur/XCWH6n16sfT26JYfqfTRk3RK+h+p9PGXdFar6G0Npoza0P6q0H1Vp5GbWhWhtDaq00jPrQrQWqtBabxDWl6pWqLVK1XWJ3Qd0ndM1SdUlhfS90nZuidJWF9K2Rs/ROkqBOitQ7UL1E7AJsDYZYGwvhaX8T4P4nxyWlSDzFSGZgobFmH4heYdiFrJs3nGnnCOcaecLWLpGnlGzky8o2coSvO6xt4t3Bi4xu4JV5faOhxROKJvN1P6+d+p9L9J6erI+l96M+r+lek9HkZd6M+q+l+lejyMu9GWqtLug3RpGXejboN0XdKujyMu9GXQfRd0G6PIz60ZdBtBdBujeI3QrS9VLoF0FT9Vql6orStUlcHRWjNF6SolahWodouxKj4TqF2H6gLlOj4RYGw65DclC5K+J8N8p5cnrIJkzOVzJmcuQ3lM5OxlWcnYyWsm8i55aecL55aeeS1i6YN5Rs5Rn55a+UJXn9cNXGNvGMnKNnJKvO6827ipXKoSxg1y/r5X0noj2nt68j6A10P8AaeiPaXZpGfWzvSvZPtXs0jNvZ10G6Kuw+zyMu9HelXRN2r2eRm1o26V6Ju1XZvENaNug3RftV0bxK0y0NoPQboKX0VobVfVWp08VQUSqlTyAoLDPirE6eZJsDcnXKrlKqTBFyryf5V4KP0J8pMneFzDiXmVMmZwZMDzgEdcw5wdjK84OxgGXfNMZaMZDjJ+MkrH05Gc8tPOFYy0YhaxdOJ/Nr5s3No5ksYunBr51AYqE8Y78b+/8fF+0/Rl/RP0ez9X6zezV7V7Zv0V+g/VHXVp9q9s/6K9mkQ10aLtV2z+1ezyIa20XYfZF2r2aRDWj/avZHtPY+I2ne0uiPavQktP9J6J9J6CjDvqfS5RSp1XMEioKJ1ozlXxfwUgplKrZwX5V5OmRTCdXnNn8J4aPC/BD/wCJm8LmGj81zDgvImYHnB0wOYBLXErODs4FMG5yCGuAcZPxlWcm5hbGbfxxYh+IXmG5L4zb+N+G4PxSMmZpfGbXxPxpzpRedIXxG/D/AB59+ifoxfqn6vc+r3b3bf0V+jH+qfqP1LezZ+iv0ZP0V+g/Ul6td6K/Rl/RP0d4nejV+iv0Zv0V+g+Eumr9Ffoze09j4X1p9p7Zf0X7cDVNimmWbHnYU+WqaHms+dG5pK04h+TMlYOwlWzngeYZMpiHZylW3HIEwOYNzgzOEq1Z4kfmuc2mcxTmVacGX808Nf5p+YD/AIGb8xTDR+a5hxb8cmYHMGTIvIeJ34v4DOTJEkFA8TvxPxeRwEFK7xO/C/DJRTRXpfoPqS/A/D5pCfag+pf9f+PN0RHtP5tERHOREQHIiI5yl/ERwJ8T4iC5Pi1I4R5hmVoWq5NwdhEJWvm0c40YREq38z8RoxERKvQ5nYh2YiJ1twZIL4iEaInxfxEcZS0RwJURHOSIiOclXERwoi0c5SIjgf/Z);
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom;
+  padding: 30px;
+
+}
+.container{
+    height:auto;
+    width: 90%;
+    margin: 15px 20px;
+    padding:40px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.header{
+    margin: 40px;
+    padding: 40px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header p{
+    color: blueviolet;
+    font-size: 18px;
+}
+.mm{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.first{
+    height:500px;
+    width:100%;
+    padding: 15px;
+    margin: 20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    flex-direction: column;
+    outline: none;
+    background-color: whitesmoke;
+}
+.inner-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color:lavender ;
+    border-radius: 8px;
+    padding:10px;
+    text-align: center;
+
+}
+.hh{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.hh p{
+    font-size: 12px;
+    padding-left: 8px;
+
+}
+.inner-1 button{
+    
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:25px;
+    background-color:rgb(108, 122, 254);
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+}
+.best-value{
+    background-color: gold;
+    border-radius: 60px;
+    width: 40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 27%;
+    margin-top: -9px;
+    position: absolute;
+    color: rgba(107,78,0,0.9);
+
+}
+.Second{
+    height:500px;
+    width:100%;
+    padding: 15px;
+    margin: 20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    flex-direction: column;
+    outline: none;
+    background-color: whitesmoke;
+    position: relative;
+
+}
+.inner-2{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color:lavender ;
+    border-radius: 8px;
+    padding:10px;
+    text-align: center;
+}
+
+.hh{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.hh p{
+    font-size: 12px;
+    padding-left: 8px;
+
+}
+.inner-2 button{
+    background-color:rgb(108, 122, 254);
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:25px;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.Third{
+    height:auto;
+    width:100%;
+    padding: 15px;
+    margin: 20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    flex-direction: column;
+    outline: none;
+    background-color: whitesmoke;
+}
+.inner-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color:lavender ;
+    border-radius: 8px;
+    padding:10px;
+    text-align: center;
+}
+
+.hh{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.hh p{
+    font-size: 12px;
+    padding-left: 8px;
+
+}
+.inner-3 button{
+    background-color:rgb(108, 122, 254);
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:25px;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+}
+.kk{
+    margin: 15px;
+}
+.kk ul li{
+margin-bottom: 15x;
+}
+.kk li{
+    padding-bottom: 12px;
+}
+
+.kk h3{
+    margin-bottom: 10px;
+}
